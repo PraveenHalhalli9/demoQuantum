@@ -23,7 +23,7 @@ public class ExpenseTrackerStepDefs2 {
 
 
 	@And("^I add expense with head \"([^\"]*)\" , amount \"([^\"]*)\" , \"([^\"]*)\" currency and category \"([^\"]*)\"$")
-	public void adddbasicExpense(String Head, String Amount, String Currency, String Category) {
+	public void adddbasicExpense1(String Head, String Amount, String Currency, String Category) {
 
 		if (ConfigurationManager.getBundle().getProperty("appType").equals("Hybrid")
 				|| ConfigurationManager.getBundle().getProperty("appType").equals("Web")) {
